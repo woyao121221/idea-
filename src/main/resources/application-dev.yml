@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: SpringBootWebTest
+  datasource:
+    url: jdbc:mysql://localhost:3306/ssm_book_manage?serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    static-path-pattern: /static/**
